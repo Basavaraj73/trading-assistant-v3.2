@@ -1,15 +1,4 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
-android {
-    namespace="com.tradingassistant.v3"
-    compileSdk=36
-    defaultConfig {
-        applicationId="com.tradingassistant.v3"
-        minSdk=26
-        targetSdk=36
-        versionCode=3
-        versionName="3.0"
-    }
+    id("com.android.application") version "9.1.0" apply false
+    id("org.jetbrains.kotlin.android") version "2.3.10" apply false
 }
